@@ -7,25 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7801BA9D22678C4200949450 /* Assembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 7801BA9C22678C4200949450 /* Assembly.m */; };
+		783F7E61226770E0004C37BE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F7E60226770E0004C37BE /* Game.m */; };
+		783F7E64226770F0004C37BE /* GamePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 783F7E63226770F0004C37BE /* GamePresenter.m */; };
+		783F7E6D226774F2004C37BE /* PresenterProtocol.h in Sources */ = {isa = PBXBuildFile; fileRef = 783F7E6C226774F2004C37BE /* PresenterProtocol.h */; };
 		7854D80422568DF8008A6C25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7854D80322568DF8008A6C25 /* AppDelegate.m */; };
-		7854D80722568DF8008A6C25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7854D80622568DF8008A6C25 /* ViewController.m */; };
-		7854D80A22568DF8008A6C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7854D80822568DF8008A6C25 /* Main.storyboard */; };
+		7854D80722568DF8008A6C25 /* GameStartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7854D80622568DF8008A6C25 /* GameStartViewController.m */; };
 		7854D80C22568DFA008A6C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7854D80B22568DFA008A6C25 /* Assets.xcassets */; };
 		7854D80F22568DFA008A6C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7854D80D22568DFA008A6C25 /* LaunchScreen.storyboard */; };
 		7854D81222568DFA008A6C25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7854D81122568DFA008A6C25 /* main.m */; };
+		7854D845225A6D75008A6C25 /* SettingsAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7854D844225A6D75008A6C25 /* SettingsAnimationController.m */; };
+		78A9D130226083FD000520C3 /* GameContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A9D12F226083FD000520C3 /* GameContainerView.m */; };
+		78BDBE12225A8595003D76B3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78BDBE11225A8595003D76B3 /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7801BA9B22678C4200949450 /* Assembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Assembly.h; sourceTree = "<group>"; };
+		7801BA9C22678C4200949450 /* Assembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assembly.m; sourceTree = "<group>"; };
+		783F7E5F226770E0004C37BE /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		783F7E60226770E0004C37BE /* Game.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		783F7E62226770F0004C37BE /* GamePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePresenter.h; sourceTree = "<group>"; };
+		783F7E63226770F0004C37BE /* GamePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePresenter.m; sourceTree = "<group>"; };
+		783F7E6922677486004C37BE /* GameProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameProtocol.h; sourceTree = "<group>"; };
+		783F7E6C226774F2004C37BE /* PresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresenterProtocol.h; sourceTree = "<group>"; };
 		7854D7FF22568DF8008A6C25 /* PingPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7854D80222568DF8008A6C25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7854D80322568DF8008A6C25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7854D80522568DF8008A6C25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7854D80622568DF8008A6C25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7854D80922568DF8008A6C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7854D80522568DF8008A6C25 /* GameStartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameStartViewController.h; sourceTree = "<group>"; };
+		7854D80622568DF8008A6C25 /* GameStartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameStartViewController.m; sourceTree = "<group>"; };
 		7854D80B22568DFA008A6C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7854D80E22568DFA008A6C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7854D81022568DFA008A6C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7854D81122568DFA008A6C25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7854D843225A6D75008A6C25 /* SettingsAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsAnimationController.h; sourceTree = "<group>"; };
+		7854D844225A6D75008A6C25 /* SettingsAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsAnimationController.m; sourceTree = "<group>"; };
+		78A9D12E226083FD000520C3 /* GameContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameContainerView.h; sourceTree = "<group>"; };
+		78A9D12F226083FD000520C3 /* GameContainerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameContainerView.m; sourceTree = "<group>"; };
+		78BDBE10225A8595003D76B3 /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		78BDBE11225A8595003D76B3 /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +58,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78073E18225CF27E00AA3162 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				7854D843225A6D75008A6C25 /* SettingsAnimationController.h */,
+				7854D844225A6D75008A6C25 /* SettingsAnimationController.m */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
+		78073E3E225D0A6C00AA3162 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7854D80522568DF8008A6C25 /* GameStartViewController.h */,
+				7854D80622568DF8008A6C25 /* GameStartViewController.m */,
+				78BDBE10225A8595003D76B3 /* SettingsViewController.h */,
+				78BDBE11225A8595003D76B3 /* SettingsViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		78073E3F225D0ABF00AA3162 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7854D81022568DFA008A6C25 /* Info.plist */,
+				7854D80B22568DFA008A6C25 /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		783F7E462266061E004C37BE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				783F7E62226770F0004C37BE /* GamePresenter.h */,
+				783F7E63226770F0004C37BE /* GamePresenter.m */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		783F7E4A22660641004C37BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				783F7E5F226770E0004C37BE /* Game.h */,
+				783F7E60226770E0004C37BE /* Game.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		783F7E682267711A004C37BE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				783F7E6922677486004C37BE /* GameProtocol.h */,
+				783F7E6C226774F2004C37BE /* PresenterProtocol.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		7854D7F622568DF8008A6C25 = {
 			isa = PBXGroup;
 			children = (
@@ -58,17 +133,38 @@
 		7854D80122568DF8008A6C25 /* PingPong */ = {
 			isa = PBXGroup;
 			children = (
+				783F7E4A22660641004C37BE /* Model */,
+				78A9D13122608407000520C3 /* View */,
+				783F7E462266061E004C37BE /* Presenter */,
+				78E0DC552267B70D00ABEBED /* Assembly */,
+				783F7E682267711A004C37BE /* Protocols */,
+				78073E3F225D0ABF00AA3162 /* Resources */,
+				78073E18225CF27E00AA3162 /* Animation */,
 				7854D80222568DF8008A6C25 /* AppDelegate.h */,
 				7854D80322568DF8008A6C25 /* AppDelegate.m */,
-				7854D80522568DF8008A6C25 /* ViewController.h */,
-				7854D80622568DF8008A6C25 /* ViewController.m */,
-				7854D80822568DF8008A6C25 /* Main.storyboard */,
-				7854D80B22568DFA008A6C25 /* Assets.xcassets */,
 				7854D80D22568DFA008A6C25 /* LaunchScreen.storyboard */,
-				7854D81022568DFA008A6C25 /* Info.plist */,
 				7854D81122568DFA008A6C25 /* main.m */,
 			);
 			path = PingPong;
+			sourceTree = "<group>";
+		};
+		78A9D13122608407000520C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				78073E3E225D0A6C00AA3162 /* ViewControllers */,
+				78A9D12E226083FD000520C3 /* GameContainerView.h */,
+				78A9D12F226083FD000520C3 /* GameContainerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		78E0DC552267B70D00ABEBED /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				7801BA9B22678C4200949450 /* Assembly.h */,
+				7801BA9C22678C4200949450 /* Assembly.m */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +226,6 @@
 			files = (
 				7854D80F22568DFA008A6C25 /* LaunchScreen.storyboard in Resources */,
 				7854D80C22568DFA008A6C25 /* Assets.xcassets in Resources */,
-				7854D80A22568DF8008A6C25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +236,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7854D80722568DF8008A6C25 /* ViewController.m in Sources */,
+				7854D845225A6D75008A6C25 /* SettingsAnimationController.m in Sources */,
+				783F7E6D226774F2004C37BE /* PresenterProtocol.h in Sources */,
+				7854D80722568DF8008A6C25 /* GameStartViewController.m in Sources */,
+				783F7E61226770E0004C37BE /* Game.m in Sources */,
+				783F7E64226770F0004C37BE /* GamePresenter.m in Sources */,
+				78A9D130226083FD000520C3 /* GameContainerView.m in Sources */,
 				7854D81222568DFA008A6C25 /* main.m in Sources */,
+				7801BA9D22678C4200949450 /* Assembly.m in Sources */,
+				78BDBE12225A8595003D76B3 /* SettingsViewController.m in Sources */,
 				7854D80422568DF8008A6C25 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +252,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7854D80822568DF8008A6C25 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7854D80922568DF8008A6C25 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7854D80D22568DFA008A6C25 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -6,17 +6,25 @@
 //  Copyright © 2019 Igor. All rights reserved.
 //
 
+
 #import "AppDelegate.h"
+#import "Assembly.h"
+
 
 @interface AppDelegate ()
 
 @end
 
+
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    UIViewController *initialViewController = [Assembly assemblyGame];
+    self.window.rootViewController = initialViewController;
+    self.window.backgroundColor = [UIColor colorWithRed:77/255.0 green:0/255.0 blue:153/255.0 alpha:1.0];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
